@@ -26,6 +26,7 @@
   ],
   "license": "0BSD",
   "scripts": {
+    "develop:playground": "GATSBY_GRAPHQL_IDE=playground gatsby develop",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
