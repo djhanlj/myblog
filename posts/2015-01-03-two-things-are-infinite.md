@@ -1,9 +1,11 @@
 ---
+title: teste de publicação
 date: 2015-01-03 05:54:23
-title: Two things are infinite
 description: And I'm not sure about the universe.
 category: Misc
 background: "#7AAB13"
+Description: teste
+thumbnail: assets/img/mussum-ipsum.jpg
 ---
 
 # Lorem ipsum
