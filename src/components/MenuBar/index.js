@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import getThemeColor from '../../utils/getThemeColor';
 import * as S from './styled';
 
 import { Home } from "styled-icons/boxicons-solid"
@@ -31,7 +32,7 @@ const MenuBar = () => {
                 <S.MenuBarLink
                     cover
                     direction="right"
-                    bg="#16202c"
+                    bg={getThemeColor()}
                     duration={0.6}
                     to="/"
                     title="Voltar para Home">
@@ -43,7 +44,7 @@ const MenuBar = () => {
                 <S.MenuBarLink
                     cover
                     direction="right"
-                    bg="#16202c"
+                    bg={getThemeColor()}
                     duration={0.6}
                     to="/search/"
                     title="Pesquisar">

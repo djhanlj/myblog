@@ -3,6 +3,7 @@ import algoliasearch from 'algoliasearch/lite';
 import { InstantSearch, SearchBox, Hits, Stats } from 'react-instantsearch-dom';
 
 import Hit from "./Hit"
+import getThemeColor from '../../utils/getThemeColor';
 import * as S from './styled';
 
 const algolia = {
