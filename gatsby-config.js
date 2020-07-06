@@ -1,7 +1,6 @@
 require('dotenv').config()
 
 const queries = require("./src/utils/algolia_queries")
-console.log(queries)
 
 module.exports = {
   siteMetadata: {
@@ -9,7 +8,7 @@ module.exports = {
     position: `Development`,
     description: `Meu blog pessoal.`,
     author: `@djhanlj`,
-    siteUrl: `https://localhost`
+    siteUrl: `https://djairsopereira.netlify.app`
   },
   plugins: [
     
@@ -89,5 +88,6 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
      `gatsby-plugin-offline`,
+     `gatsby-plugin-netlify-cms`
   ],
 }
